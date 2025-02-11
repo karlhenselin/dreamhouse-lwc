@@ -138,6 +138,8 @@ Make sure to start from a brand-new environment to avoid conflicts with previous
     ```
     git clone https://github.com/dreamhouseapp/dreamhouse-lwc
     cd dreamhouse-lwc
+    npm install
+
     ```
 
 1. Authorize your Trailhead Playground or Developer org and provide it with an alias (**mydevorg** in the command below):
