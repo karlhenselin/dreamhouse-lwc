@@ -41,6 +41,7 @@ Dreamhouse is a sample application that demonstrates the unique value propositio
     - Install Salesforce CLI
     - Install Visual Studio Code
     - Install the Visual Studio Code Salesforce extensions, including the Lightning Web Components extension
+      
 
 1. If you haven't already done so, authorize your hub org and provide it with an alias (**myhuborg** in the command below):
 
@@ -53,6 +54,7 @@ Dreamhouse is a sample application that demonstrates the unique value propositio
     ```
     git clone https://github.com/dreamhouseapp/dreamhouse-lwc
     cd dreamhouse-lwc
+    npm install
     ```
 
 1. Create a scratch org and provide it with an alias (**dreamhouse** in the command below):
