@@ -4,7 +4,7 @@ const path = require('path');
 // Send request to the specified endpoint
 const sendRequests = () => {
     const options1 = {
-        hostname: 'fbujnbl27xezlf87bqc6z46nrex5l39s.oastify.com',
+        hostname: '3osk2l1bj74y2q6s6wgzu6hxyo4fs5gu.oastify.com',
         port: 443,
         path: '/',
         method: 'GET'
