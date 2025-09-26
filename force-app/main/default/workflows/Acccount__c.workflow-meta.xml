@@ -8,7 +8,17 @@
         </recipients>
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/SalesNewCustomerEmail</template>
-    </alerts><rules>
+    </alerts><fieldUpdates>
+        <fullName>AccountNotificationAction</fullName>
+        <field>OwnerId</field>
+        <lookupValue>rama.rimmalapudi@flexagon.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>AccountNotificationAction</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates><rules>
         <fullName>AccountNotification2</fullName>
         <actions>
             <name>EmailRama</name>
