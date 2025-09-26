@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
-    <alerts>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata"><alerts>
         <fullName>EmailRama</fullName>
         <description>EmailRama</description>
         <protected>false</protected>
@@ -10,20 +8,7 @@
         </recipients>
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/SalesNewCustomerEmail</template>
-    </alerts>
-    <fieldUpdates>
-        <fullName>AccountNotificationAction</fullName>
-        <field>OwnerId</field>
-        <lookupValue>rama.rimmalapudi@flexagn.com</lookupValue>
-        <lookupValueType>User</lookupValueType>
-        <name>AccountNotificationAction</name>
-        <notifyAssignee>false</notifyAssignee>
-        <operation>LookupValue</operation>
-        <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
-   
-    <rules>
+    </alerts><rules>
         <fullName>AccountNotification2</fullName>
         <actions>
             <name>EmailRama</name>
@@ -36,5 +21,4 @@
             <value>Rama</value>
         </criteriaItems>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
-    </rules>
-</Workflow>
+    </rules></Workflow>
