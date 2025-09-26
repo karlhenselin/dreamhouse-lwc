@@ -14,6 +14,10 @@
             <name>EmailRama</name>
             <type>Alert</type>
         </actions>
+        <actions>
+            <name>AccountNotificationAction2</name>
+            <type>FieldUpdate</type>
+        </actions>
         <active>true</active>
         <criteriaItems>
             <field>Acccount__c.Name</field>
