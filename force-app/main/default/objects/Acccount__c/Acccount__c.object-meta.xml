@@ -93,7 +93,30 @@
     </actionOverrides><actionOverrides>
         <actionName>Accept</actionName>
         <type>Default</type>
-    </actionOverrides><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><deprecated>false</deprecated><description>test account custom object</description><enableActivities>false</enableActivities><enableBulkApi>true</enableBulkApi><enableFeeds>false</enableFeeds><enableHistory>false</enableHistory><enableLicensing>false</enableLicensing><enableReports>false</enableReports><enableSearch>false</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><externalSharingModel>ReadWrite</externalSharingModel><label>Acccount</label><nameField>
+    </actionOverrides><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><CustomObject>
+<allowInChatterGroups>false</allowInChatterGroups>
+<compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+<deploymentStatus>Deployed</deploymentStatus>
+<deprecated>false</deprecated>
+<description>test account custom object</description>
+<enableActivities>false</enableActivities>
+<enableBulkApi>true</enableBulkApi>
+<enableFeeds>false</enableFeeds>
+<enableHistory>false</enableHistory>
+<enableLicensing>false</enableLicensing>
+<enableReports>false</enableReports>
+<enableSearch>false</enableSearch>
+<enableStreamingApi>true</enableStreamingApi>
+<externalSharingModel>ReadWrite</externalSharingModel>
+<label>Acccount</label>
+<nameField>
+        <label>Acccount Name</label>
+        <type>Text</type>
+    </nameField>
+<pluralLabel>Accounts</pluralLabel>
+<searchLayouts/>
+<sharingModel>ReadWrite</sharingModel>
+<visibility>Public</visibility></CustomObject><deploymentStatus>Deployed</deploymentStatus><deprecated>false</deprecated><description>test account custom object</description><enableActivities>false</enableActivities><enableBulkApi>true</enableBulkApi><enableFeeds>false</enableFeeds><enableHistory>false</enableHistory><enableLicensing>false</enableLicensing><enableReports>false</enableReports><enableSearch>false</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><externalSharingModel>ReadWrite</externalSharingModel><label>Acccount</label><nameField>
         <label>Acccount Name</label>
         <type>Text</type>
     </nameField><pluralLabel>Accounts</pluralLabel><searchLayouts/><sharingModel>ReadWrite</sharingModel><visibility>Private</visibility></CustomObject>
