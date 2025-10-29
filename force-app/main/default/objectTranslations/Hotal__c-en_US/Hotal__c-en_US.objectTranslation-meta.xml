@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Hotal</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Hotals</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- International --></label>
+        <name>International</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- National --></label>
+        <name>National</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

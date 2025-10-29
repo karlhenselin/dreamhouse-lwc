@@ -1,0 +1,51 @@
+<template>
+    <lightning-card title="Object List Controller">
+        <div class="slds-p-around_medium">
+            <lightning-combobox
+                label="Sort By"
+                value={sortBy}
+                options={sortOptions}
+                onchange={handleSortChange}>
+            </lightning-combobox>
+            <lightning-combobox
+                label="Select Time Frame"
+                value={timeFrame}
+                options={timeFrameOptions}
+                onchange={handleTimeFrameChange}>
+            </lightning-combobox>
+            <lightning-input type="number" label="Enter Duration" value={duration} onchange={handleDurationChange}></lightning-input>
+            <br>
+            <lightning-button label="Get Object List" onclick={getObjectList}></lightning-button>
+        </div>
+    </lightning-card>
+    <br>
+    <lightning-card title="Object List Result">
+        <div class="slds-p-around_medium">
+            <lightning-dual-listbox
+                label="Select Objects"
+                source-label="Available Objects"
+                selected-label="Selected Objects"
+                options={objectOptions}
+                value={selectedObjects}
+                onchange={handleObjectChange}>
+            </lightning-dual-listbox>
+            <br>
+            <lightning-button label="Get Object Data" onclick={getObjectData}></lightning-button>
+        </div>
+    </lightning-card>
+    <br>
+    <lightning-card title="Object Data">
+        <div class="slds-p-around_medium">
+            <template if:true={objectData}>
+                <lightning-datatable
+                    key-field="Id"
+                    data={objectData}
+                    columns={columns}>
+                </lightning-datatable>
+            </template>
+            <template if:false={objectData}>
+                No data to display.
+            </template>
+        </div>
+    </lightning-card>
+</template>

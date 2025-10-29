@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CICL</fullName>
+    <fields>CampaignId</fields>
+    <fields>Is_Object_Visible__c</fields>
+    <fields>Influence</fields>
+    <fields>CreatedDate</fields>
+    <label>CICL</label>
+</CompactLayout>

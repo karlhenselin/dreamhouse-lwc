@@ -11,7 +11,7 @@
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>TestFDBMCHelix2</application>
+        <application>TestFDBMCHelix</application>
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>

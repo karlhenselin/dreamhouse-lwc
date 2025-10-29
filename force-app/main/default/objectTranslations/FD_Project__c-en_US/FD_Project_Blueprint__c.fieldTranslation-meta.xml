@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Project Blueprint --></label>
+    <name>FD_Project_Blueprint__c</name>
+    <picklistValues>
+        <masterLabel>ADF Application</masterLabel>
+        <translation><!-- ADF Application --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Container</masterLabel>
+        <translation><!-- Container --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dell Boomi</masterLabel>
+        <translation><!-- Dell Boomi --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>File Deployments</masterLabel>
+        <translation><!-- File Deployments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Google Apigee</masterLabel>
+        <translation><!-- Google Apigee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MuleSoft</masterLabel>
+        <translation><!-- MuleSoft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oracle API</masterLabel>
+        <translation><!-- Oracle API --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oracle JET Application</masterLabel>
+        <translation><!-- Oracle JET Application --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PeopleSoft</masterLabel>
+        <translation><!-- PeopleSoft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SAP Change Requests</masterLabel>
+        <translation><!-- SAP Change Requests --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SQL Scripts</masterLabel>
+        <translation><!-- SQL Scripts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Salesforce</masterLabel>
+        <translation><!-- Salesforce --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

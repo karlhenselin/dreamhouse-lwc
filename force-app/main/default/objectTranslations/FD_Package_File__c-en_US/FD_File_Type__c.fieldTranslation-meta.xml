@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- File Type --></label>
+    <name>FD_File_Type__c</name>
+    <picklistValues>
+        <masterLabel>Database (*.db)</masterLabel>
+        <translation><!-- Database (*.db) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Image (*.png/*.jpeg)</masterLabel>
+        <translation><!-- Image (*.png/*.jpeg) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PDF (*.pdf)</masterLabel>
+        <translation><!-- PDF (*.pdf) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plain Test (*.txt)</masterLabel>
+        <translation><!-- Plain Test (*.txt) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RAR (*.rar)</masterLabel>
+        <translation><!-- RAR (*.rar) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SQL Database (*.sql)</masterLabel>
+        <translation><!-- SQL Database (*.sql) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Web Page (*.html)</masterLabel>
+        <translation><!-- Web Page (*.html) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Word Doc (*.docx)</masterLabel>
+        <translation><!-- Word Doc (*.docx) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>XML (*.xml)</masterLabel>
+        <translation><!-- XML (*.xml) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>XPS Doc (*.xps)</masterLabel>
+        <translation><!-- XPS Doc (*.xps) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Customer</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Customers</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- xxxcxc --></label>
+        <name>xxxcxc</name>
+    </fieldSets>
+    <recordTypes>
+        <label><!-- Test Record Label2 --></label>
+        <name>Test_Record_Label</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

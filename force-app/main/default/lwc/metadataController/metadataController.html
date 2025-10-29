@@ -1,0 +1,26 @@
+<!-- metadataController.html -->
+<template>
+    <lightning-card title="Metadata Controller">
+        <!-- Picklist for Select Last Modified -->
+        <lightning-combobox 
+            label="Select Last Modified" 
+            value={selectedTimeframe} 
+            options={timeframeOptions} 
+            onchange={handleTimeframeChange}>
+        </lightning-combobox>
+
+        <!-- Picklist for Modified By User -->
+        <lightning-combobox 
+            label="Modified By User" 
+            value={selectedUser} 
+            options={userOptions} 
+            onchange={handleUserChange}>
+        </lightning-combobox>
+        <br>
+        <!-- Button to get metadata list -->
+        <lightning-button 
+            label="Get Metadata List" 
+            onclick={handleButtonClick}>
+        </lightning-button>
+    </lightning-card>
+</template>

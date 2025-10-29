@@ -1,0 +1,16 @@
+<apex:page controller="agf.ADM_WorkDeepCloneRedirectController">
+    <apex:includeLightning />
+
+    <div id="lightning" />
+
+    <script>
+        $Lightning.use("agf:ADM_DeepCloneApplication", function() {
+          $Lightning.createComponent("agf:ADM_DeepCloneComponent",
+          { recordId : '{!URLENCODE(recordId)}', workId : '{!URLENCODE(recordId)}'},
+          "lightning",
+          function(cmp) {
+            // do some stuff
+          });
+        });
+    </script>
+</apex:page>
