@@ -8,7 +8,6 @@ public class AccountPhoneUpdater {
                 accountIds.add(con.AccountId);
             }
         }
-
         // Query the Accounts that need their Phone field updated
         List<Account> accountsToUpdate = [SELECT Id, Phone FROM Account WHERE Id IN :accountIds];
 
